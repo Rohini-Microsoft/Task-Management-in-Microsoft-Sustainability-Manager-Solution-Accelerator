@@ -1,25 +1,24 @@
 # Task Management in Microsoft Sustainability Manager (MSM) 
 
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)  \|
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)
 
-
-<h2><img src="./Deployment/images/readme/userStory.png" width="64">
+<h2 id="user-story"><img src="./Deployment/images/readme/userStory.png" width="64">
 <br/>
 User story
 </h2>
 
-**Solution accelerator overview**
+**Solution Accelerator Overview**
 
 This solution accelerator enhances the efficiency of Microsoft Sustainability Manager by adding the ability to effortlessly create, assign, manage, and track tasks. Following the same UI, UX and architecture of MSM, this accelerator introduces a task table having custom N:1 relationships with multiple MSM tables so users (Sustainability Managers, Analysts and other personas) can create, assign, track and manage tasks. The accelerator also has 2 custom security roles so managers can create & assign tasks throughout the organization whereas Analysts would be able to view, create & edit tasks assigned to them. Additionally, there will be notifications sent out in Microsoft Teams and Outlook upon task creation through Power Automate.
 
-**Scenario**
+**Scenarios**
 
 As a Sustainability Manager or Sustainability Analyst, you will be able to deploy this accelerator on top of your existing MSM environment. This will allow you to
  1. Create, manage, track, and assign tasks as a Sustainability Manager specific to MSM tables like Emissions, Scope 1, Scope 2 and Scope 3 activity tables, Accounts etc. You can create generic tasks for data validation, data import, etc. This also allows you to get a 360 view of all scheduled, completed and in-progress tasks to help you to prioritize, delegate, and track progress.
  2. As a Analyst, you will receive notifications when a task is assigned to the user. There will be custom views to track & manage tasks assigned to the logged in user. 
 <br/>
 
-**Key features** 
+**Key Features** 
 
 Below diagram illustrates the key features of this solution accelerator:
 
@@ -32,11 +31,10 @@ Below is a sample landing page of the solution accelerator after it is deployed,
 ![Landing Page](./Deployment/images/readme/landingPage.png)
 
 
-<h2><img src="./Deployment/images/readme/quickDeploy.png" width="64">
+<h2 id="quick-deploy"><img src="./Deployment/images/readme/quickDeploy.png" width="64">
 <br/>
-
-**Quick deploy**
-
+Quick deploy
+</h2>
 
 Please click this [**Link to Deployment Guide**](./Deployment/README.md) for instructions on how to deploy and set up the solution accelerator. 
 
