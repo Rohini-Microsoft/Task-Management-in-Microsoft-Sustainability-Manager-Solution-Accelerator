@@ -1,6 +1,6 @@
 # Task Management in Microsoft Sustainability Manager (MSM) 
 
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documents)
 
 <h2 id="user-story"><img src="./Deployment/images/readme/userStory.png" width="64">
 <br/>
@@ -38,17 +38,22 @@ Quick deploy
 
 Please click this [**Link to Deployment Guide**](./Deployment/README.md) for instructions on how to deploy and set up the solution accelerator. 
 
-### Prerequisites
-
-To use this solution accelerator, you will need
-
-1. [Microsoft Sustainability Manager overview - Microsoft Cloud for Sustainability](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview)
-
 ### Solution Accelerator Architecture
 
 Below diagram depicts the architecture of this solution accelerator. 
 
 ![image](./Deployment/images/readme/architecture.png)
+
+
+<h2 id="supporting-documents"><img src="./Deployment/images/readme/supportingDocuments.png" width="64">
+<br/>
+Supporting Documents
+</h2>
+
+
+To use this solution accelerator, you will need
+
+1. [Microsoft Sustainability Manager overview - Microsoft Cloud for Sustainability](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview)
 
 ## Disclaimers
 
