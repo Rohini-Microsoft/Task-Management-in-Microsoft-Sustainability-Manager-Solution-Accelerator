@@ -1,12 +1,11 @@
 # Task Management in Microsoft Sustainability Manager (MSM) 
 
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documents)
 
 <h2 id="user-story"><img src="./Deployment/images/readme/userStory.png" width="64">
 <br/>
 User story
 </h2>
-
 **Solution Accelerator Overview**
 
 This solution accelerator enhances the efficiency of Microsoft Sustainability Manager by adding the ability to effortlessly create, assign, manage, and track tasks. Following the same UI, UX and architecture of MSM, this accelerator introduces a task table having custom N:1 relationships with multiple MSM tables so users (Sustainability Managers, Analysts and other personas) can create, assign, track and manage tasks. The accelerator also has 2 custom security roles so managers can create & assign tasks throughout the organization whereas Analysts would be able to view, create & edit tasks assigned to them. Additionally, there will be notifications sent out in Microsoft Teams and Outlook upon task creation through Power Automate.
@@ -38,17 +37,23 @@ Quick deploy
 
 Please click this [**Link to Deployment Guide**](./Deployment/README.md) for instructions on how to deploy and set up the solution accelerator. 
 
-### Prerequisites
-
-To use this solution accelerator, you will need
-
-1. [Microsoft Sustainability Manager overview - Microsoft Cloud for Sustainability](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview)
-
 ### Solution Accelerator Architecture
 
 Below diagram depicts the architecture of this solution accelerator. 
 
 ![image](./Deployment/images/readme/architecture.png)
+
+
+<h2 id="supporting-documents"><img src="./Deployment/images/readme/supportingDocuments.png" width="64">
+<br/>
+Supporting Documents
+</h2>
+Please refer to following additional documentation along with [Microsoft Sustainability Manager](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview):
+
+1. [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/)
+2. [Official Microsoft Power Automate](https://learn.microsoft.com/en-us/power-automate/)
+3. [Power Apps model-driven apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/)
+4. [Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/)
 
 ## Disclaimers
 
