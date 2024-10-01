@@ -48,12 +48,13 @@ Below diagram depicts the architecture of this solution accelerator.
 <br/>
 Supporting Documents
 </h2>
-Please refer to following additional documentation along with [Microsoft Sustainability Manager](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview):
 
-1. [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/)
-2. [Official Microsoft Power Automate](https://learn.microsoft.com/en-us/power-automate/)
-3. [Power Apps model-driven apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/)
-4. [Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/)
+Please refer to following additional documentation along with [Microsoft Sustainability Manager(MSM)](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview):
+
+1. [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/) 
+2. [Microsoft Power Automate](https://learn.microsoft.com/en-us/power-automate/) 
+3. [Model Driven Apps in Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps)
+4. [Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/)
 
 ## Disclaimers
 
