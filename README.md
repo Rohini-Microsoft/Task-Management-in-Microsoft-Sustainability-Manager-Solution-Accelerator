@@ -48,7 +48,7 @@ Below diagram depicts the architecture of this solution accelerator.
 <br/>
 Supporting Documents
 </h2>
-Please refer to following additional documentation along with [Microsoft Sustainability Manager](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview):
+Please refer to following additional documentation along with [Microsoft Sustainability Manager](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview)
 
 1. [Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/)
 2. [Official Microsoft Power Automate](https://learn.microsoft.com/en-us/power-automate/)
