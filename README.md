@@ -1,53 +1,60 @@
 # Task Management in Microsoft Sustainability Manager (MSM) 
 
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documents)
+The Task Management in Microsoft Sustainability Manager (MSM) accelerator enhances MSM by enabling users to manage tasks within a single interface. This accelerator facilitates task creation, assignment, collaboration, and resolution, improving productivity and visibility, and ensuring timely completion of sustainability-related tasks.
 
-<h2 id="user-story"><img src="./Deployment/images/readme/userStory.png" width="64">
 <br/>
-User story
-</h2>
 
-**Solution Accelerator Overview**
+<div align="center">
+  
+[**SOLUTION OVERVIEW**](#solution-overview)  \| [**QUICK DEPLOY**](#quick-deploy)  \| [**BUSINESS USE CASE**](#business-use-case)  \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation)
+
+</div>
+<br/>
+
+<h2><img src="./Deployment/images/readme/solution-overview.png" width="48" />
+Solution overview
+</h2>
 
 This solution accelerator enhances the efficiency of Microsoft Sustainability Manager by adding the ability to effortlessly create, assign, manage, and track tasks. Following the same UI, UX and architecture of MSM, this accelerator introduces a task table having custom N:1 relationships with multiple MSM tables so users (Sustainability Managers, Analysts and other personas) can create, assign, track and manage tasks. The accelerator also has 2 custom security roles so managers can create & assign tasks throughout the organization whereas Analysts would be able to view, create & edit tasks assigned to them. Additionally, there will be notifications sent out in Microsoft Teams and Outlook upon task creation through Power Automate.
 
-**Scenarios**
+### Solution architecture
 
-As a Sustainability Manager or Sustainability Analyst, you will be able to deploy this accelerator on top of your existing MSM environment. This will allow you to
- 1. Create, manage, track, and assign tasks as a Sustainability Manager specific to MSM tables like Emissions, Scope 1, Scope 2 and Scope 3 activity tables, Accounts etc. You can create generic tasks for data validation, data import, etc. This also allows you to get a 360 view of all scheduled, completed and in-progress tasks to help you to prioritize, delegate, and track progress.
- 2. As a Analyst, you will receive notifications when a task is assigned to the user. There will be custom views to track & manage tasks assigned to the logged in user. 
-<br/>
+Below diagram depicts the architecture of this solution accelerator. 
 
-**Key Features** 
+![image](./Deployment/images/readme/architecture.png)
+
+#### Key Features
 
 Below diagram illustrates the key features of this solution accelerator:
 
 ![image](./Deployment/images/readme/keyfeatures.png)
 
-**Solution Accelerator Landing Page**
+### Solution Accelerator Landing Page
 
 Below is a sample landing page of the solution accelerator after it is deployed, set up, and ready to be used.
 
 ![Landing Page](./Deployment/images/readme/landingPage.png)
 
 
-<h2 id="quick-deploy"><img src="./Deployment/images/readme/quickDeploy.png" width="64">
-<br/>
+<br /><br />
+<h2><img src="./Deployment/images/readme/quick-deploy.png" width="48" />
 Quick deploy
 </h2>
 
 Please click this [**Link to Deployment Guide**](./Deployment/README.md) for instructions on how to deploy and set up the solution accelerator. 
 
-### Solution Accelerator Architecture
+<br /><br />
+<h2><img src="./Deployment/images/readme/business-scenario.png" width="48" />
+Business Use Case
+</h2>
 
-Below diagram depicts the architecture of this solution accelerator. 
+As a Sustainability Manager or Sustainability Analyst, you will be able to deploy this accelerator on top of your existing MSM environment. This will allow you to
+ 1. Create, manage, track, and assign tasks as a Sustainability Manager specific to MSM tables like Emissions, Scope 1, Scope 2 and Scope 3 activity tables, Accounts etc. You can create generic tasks for data validation, data import, etc. This also allows you to get a 360 view of all scheduled, completed and in-progress tasks to help you to prioritize, delegate, and track progress.
+ 2. As a Analyst, you will receive notifications when a task is assigned to the user. There will be custom views to track & manage tasks assigned to the logged in user. 
 
-![image](./Deployment/images/readme/architecture.png)
-
-
-<h2 id="supporting-documents"><img src="./Deployment/images/readme/supportingDocuments.png" width="64">
-<br/>
-Supporting Documents
+<br /><br />
+<h2><img src="./Deployment/images/readme/supporting-documentation.png" width="48" />
+Supporting documentation
 </h2>
 
 Please refer to following additional documentation along with [Microsoft Sustainability Manager(MSM)](https://learn.microsoft.com/en-us/industry/sustainability/sustainability-manager-overview):
@@ -77,5 +84,4 @@ You acknowledge that the Software and Microsoft Products and Services (1) are no
 
 You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits. No Microsoft technology, nor any of its component technologies, including the Software, is intended or made available as a substitute for the professional advice, opinion, or judgement of a certified financial services professional. Do not use the Software to replace, substitute, or provide professional financial advice or judgment.  
 
-BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.  
-
+BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.
