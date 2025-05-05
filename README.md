@@ -23,26 +23,26 @@ Below diagram depicts the architecture of this solution accelerator.
 
 ![image](./Deployment/images/readme/architecture.png)
 
-### How to customize - Do not have content
-If you'd like to customize the solution accelerator, here are some common areas to start:
+### How to customize
 
-{🟨TODO: Fill in links to supplementary documentations}
+This solution is designed to be easily customizable. All configuration and customizations to this solution will be done in Power Platform. 
 
-[Doc name](./docs/...)
+**There is opportunities for extension/modifications to**
 
-[Doc name](./docs/...)
-
-[Doc name](./docs/...)
+1) Custom tables of the solution
+2) Cloud flow that sends notifications
+3) Notifications template for Teams channel and email.  
+4) Extend N:1 relations from MSM task table to other tables in MSM which is not covered in the solution.
 
 <br/>
 
-### Additional resources - Do not have content
+### Additional resources
 
-{🟨TODO: Fill in links to other internal or external links}
+This accelerator focuses on harnessing the following key capabilities:
 
-[Doc name]()
-
-[Doc name]()
+* [Configure tables in Dataverse](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/)
+* [Create a Cloud flow in power automate](https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow?tabs=new-designer)
+* [Building model driven app using in power apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/)
 
 <br/>
 
@@ -75,50 +75,23 @@ Quick deploy
 ### How to install or deploy
 Please click this [**Link to Deployment Guide**](./Deployment/README.md) for instructions on how to deploy and set up the solution accelerator. 
 
-{🟨TODO: Remove if Azure OpenAI quota check is not required }
-
-> ⚠️ **Important: Check Azure OpenAI Quota Availability - Do not have content**
- <br/>To ensure sufficient quota is available in your subscription, please follow [quota check instructions guide](./docs/QuotaCheck.md) before you deploy the solution.
-
 <br/>
 
-### Prerequisites and Costs - Do not have content
-{🟨TODO: Update with solution specific notes like role requirements}
+### Prerequisites and Costs
 
-To deploy this solution accelerator, ensure you have access to an [Azure subscription](https://azure.microsoft.com/free/) with the necessary permissions to create **resource groups, resources, app registrations, and assign roles at the resource group level**. This should include Contributor role at the subscription level and  Role Based Access Control role on the subscription and/or resource group level. Follow the steps in [Azure Account Set Up](./docs/AzureAccountSetUp.md).
+Apart from having a [Power platform license] (https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus), to deploy this solution accelerator, ensure you have access to [Microsot sustainability manager] (https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) with the necessary permissions to the features.
 
-Here are some example regions where the services are available: {🟨TODO: Update with suggested regions specific to this solution}
-
-Check the [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) page and select a **region** where the following services are available.
-
-{🟨TODO: Call out specific pricing "gotchas" like Azure Container Registry if known}
-
-Pricing varies per region and usage, so it isn't possible to predict exact costs for your usage. The majority of the Azure resources used in this infrastructure are on usage-based pricing tiers. However, Azure Container Registry has a fixed cost per registry per day.
-
-{🟨TODO: Update with solution specific estimate sheet}
-
-Use the [Azure pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator) to calculate the cost of this solution in your subscription. 
-
-Review a [sample pricing sheet](https://azure.com/e/68b51f4cb79a4466b631a11aa57e9c16) in the event you want to customize and scale usage.
-
-_Note: This is not meant to outline all costs as selected SKUs, scaled use, customizations, and integrations into your own tenant can affect the total consumption of this sample solution. The sample pricing sheet is meant to give you a starting point to customize the estimate for your specific needs._
+Check the [International availability of Microsoft Cloud for sustainability](https://learn.microsoft.com/en-us/industry/sustainability/availability) page and select a **region** where the services are available.
 
 <br/>
-
-{🟨TODO: Update with all products, decription of product use, and product specific pricing links}
 
 | Product | Description | Cost |
 |---|---|---|
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
+| [Microsoft sustainability manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) | Decription of how the product is used | [Pricing](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager#Pricing) |
+| [Microsoft power platform](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) | Decription of how the product is used | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
 
 
 <br/>
-
->⚠️ **Important:** To avoid unnecessary costs, remember to take down your app if it's no longer in use,
-either by deleting the resource group in the Portal or running `azd down`.
 
 <br /><br />
 <h2><img src="./Deployment/images/readme/business-scenario.png" width="48" />
@@ -143,6 +116,12 @@ As a Sustainability Manager or Sustainability Analyst, you will be able to deplo
   - **Clearer visibility** <br/>
   A single solution provides a clear overview of all tasks, making it secure, easier to prioritize, and monitor progress
      
+  - **Improved engagement** <br/>
+  Processes are simplified because employees need only go to one place to manage tasks.
+
+  - **Enhanced collaboration** <br/>
+  Unified tool allows everyone to work from the same platform, reducing communication gaps for better alignment 
+       
 </details>
 
 <br /><br />
@@ -157,70 +136,36 @@ Please refer to following additional documentation along with [Microsoft Sustain
 3. [Model Driven Apps in Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps)
 4. [Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/)
 
-### Security guidelines - Do not have content
+### Security guidelines
 
-{🟨TODO: Fill in with solution specific security guidelines similar to the below}
-
-This template uses Azure Key Vault to store all connections to communicate between resources.
-
-This template also uses [Managed Identity](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview) for local development and deployment.
-
-To ensure continued best practices in your own repository, we recommend that anyone creating solutions based on our templates ensure that the [Github secret scanning](https://docs.github.com/code-security/secret-scanning/about-secret-scanning) setting is enabled.
-
-You may want to consider additional security measures, such as:
-
-* Enabling Microsoft Defender for Cloud to [secure your Azure resources](https://learn.microsoft.com/azure/security-center/defender-for-cloud).
-* Protecting the Azure Container Apps instance with a [firewall](https://learn.microsoft.com/azure/container-apps/waf-app-gateway) and/or [Virtual Network](https://learn.microsoft.com/azure/container-apps/networking?tabs=workload-profiles-env%2Cazure-cli).
+For the solution there are two custom security roles created. Please adhere to the power platform's [Security roles and priviledges](https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges?tabs=new) to control access to the solution functionalities. 
 
 <br/>
 
-### Frequently asked questions - Do not have content
-
-{🟨TODO: Remove this section if you don't have FAQs}
-
-[Click here](./docs/FAQs.md) to learn more about common questions about this solution.
-
 <br/>
 
-### Cross references - Do not have content
+### Cross references
 Check out similar solution accelerators
  
-{🟨TODO: Identify related accelerators - fill in the name and a one sentence description. The name should have non-breaking spaces in them to make sure the layout doesn't break.}
-
 | Solution Accelerator | Description |
 |---|---|
-| [Document&nbsp;knowledge&nbsp;mining](https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator) | Provides REST API access to OpenAI's powerful language models including o3-mini, o1, o1-mini, GPT-4o, GPT-4o mini |
-| [Conversation&nbsp;knowledge&nbsp;mining](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) | Description of solution accelerator |
-| [Document&nbsp;generation](https://github.com/microsoft/document-generation-solution-accelerator) | Analyzes various media content—such as audio, video, text, and images—transforming it into structured, searchable data |
-
+| [Comparative analysis](https://github.com/microsoft/Comparative-Analysis-for-Sustainability-Solution-Accelerator/) | This solution accelerator enables companies to detect compliance gaps, benchmark against their peers, and generate action plans to ensure they’re on track to meet their sustainability goals.|
 
 <br/>   
 
 
-## Provide feedback - do not have content
+## Provide feedback
 
-{🟨TODO: Update link to create new issues for this repo}
-
-Have questions, find a bug, or want to request a feature? [Submit a new issue](https://github.com/microsoft/content-processing-solution-acclerator/issues) on this repo and we'll connect.
+Have questions, find a bug, or want to request a feature? [Submit a new issue](https://github.com/microsoft/Comparative-Analysis-for-Sustainability-Solution-Accelerator/issues/new/choose) on this repo and we'll connect.
 
 <br/>
 
-## Responsible AI Transparency FAQ - Do not have content
+## Responsible AI Transparency FAQ
 Please refer to [Transparency FAQ](./TRANSPARENCY_FAQ.md) for responsible AI transparency details of this solution accelerator.
 
 <br/>
 
 ## Disclaimers
-
-This release only supports English language input and output. Users should not attempt to use the system with any other language or format. The system output may not be compatible with any translation tools or services, and may lose its meaning or coherence if translated. 
-
-This release does not reflect the opinions, views, or values of Microsoft Corporation or any of its affiliates, subsidiaries, or partners. The system output is solely based on the system's own logic and algorithms, and does not represent any endorsement, recommendation, or advice from Microsoft or any other entity. Microsoft disclaims any liability or responsibility for any damages, losses, or harms arising from the use of this release or its output by any user or third party. 
-
-This release does not provide any financial advice, and is not designed to replace the role of qualified client advisors in appropriately advising clients. Users should not use the system output for any financial decisions or transactions, and should consult with a professional financial advisor before taking any action based on the system output. Microsoft is not a financial institution or a fiduciary, and does not offer any financial products or services through this release or its output. 
-
-This release is intended as a proof of concept only, and is not a finished or polished product. It is not intended for commercial use or distribution, and is subject to change or discontinuation without notice. Any planned deployment of this release or its output should include comprehensive testing and evaluation to ensure it is fit for purpose and meets the user's requirements and expectations. Microsoft does not guarantee the quality, performance, reliability, or availability of this release or its output, and does not provide any warranty or support for it. 
-
-This Software requires the use of third-party components which are governed by separate proprietary or open-source licenses as identified below, and you must comply with the terms of each applicable license in order to use the Software. You acknowledge and agree that this license does not grant you a license or other right to use any such third-party proprietary or open-source components.  
 
 To the extent that the Software includes components or code used in or derived from Microsoft products or services, including without limitation Microsoft Azure Services (collectively, “Microsoft Products and Services”), you must also comply with the Product Terms applicable to such Microsoft Products and Services. You acknowledge and agree that the license governing the Software does not grant you a license or other right to use Microsoft Products and Services. Nothing in the license or this ReadMe file will serve to supersede, amend, terminate or modify any terms in the Product Terms for any Microsoft Products and Services. 
 
@@ -230,4 +175,4 @@ You acknowledge that the Software and Microsoft Products and Services (1) are no
 
 You acknowledge the Software is not subject to SOC 1 and SOC 2 compliance audits. No Microsoft technology, nor any of its component technologies, including the Software, is intended or made available as a substitute for the professional advice, opinion, or judgement of a certified financial services professional. Do not use the Software to replace, substitute, or provide professional financial advice or judgment.  
 
-BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK.
+BY ACCESSING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT THE SOFTWARE IS NOT DESIGNED OR INTENDED TO SUPPORT ANY USE IN WHICH A SERVICE INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE COULD RESULT IN THE DEATH OR SERIOUS BODILY INJURY OF ANY PERSON OR IN PHYSICAL OR ENVIRONMENTAL DAMAGE (COLLECTIVELY, “HIGH-RISK USE”), AND THAT YOU WILL ENSURE THAT, IN THE EVENT OF ANY INTERRUPTION, DEFECT, ERROR, OR OTHER FAILURE OF THE SOFTWARE, THE SAFETY OF PEOPLE, PROPERTY, AND THE ENVIRONMENT ARE NOT REDUCED BELOW A LEVEL THAT IS REASONABLY, APPROPRIATE, AND LEGAL, WHETHER IN GENERAL OR IN A SPECIFIC INDUSTRY. BY ACCESSING THE SOFTWARE, YOU FURTHER ACKNOWLEDGE THAT YOUR HIGH-RISK USE OF THE SOFTWARE IS AT YOUR OWN RISK. 
