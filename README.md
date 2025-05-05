@@ -87,8 +87,8 @@ Check the [International availability of Microsoft Cloud for sustainability](htt
 
 | Product | Description | Cost |
 |---|---|---|
-| [Microsoft sustainability manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) | Decription of how the product is used | [Pricing](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager#Pricing) |
-| [Microsoft power platform](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) | Decription of how the product is used | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
+| [Microsoft sustainability manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) | The Microsoft Sustainability Manager is an advanced solution designed to help organizations track, report, and reduce their environmental impact using data and AI. | [Pricing](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager#Pricing) |
+| [Microsoft power platform](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) | Microsoft Power Platform is a suite of low-code tools designed to empower everyone in an organization to build custom apps, automate workflows, analyze data, and create virtual agents. | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
 
 
 <br/>
@@ -139,8 +139,6 @@ Please refer to following additional documentation along with [Microsoft Sustain
 ### Security guidelines
 
 For the solution there are two custom security roles created. Please adhere to the power platform's [Security roles and priviledges](https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges?tabs=new) to control access to the solution functionalities. 
-
-<br/>
 
 <br/>
 
