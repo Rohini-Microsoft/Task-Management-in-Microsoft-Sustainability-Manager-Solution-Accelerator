@@ -79,7 +79,7 @@ Please click this [**Link to Deployment Guide**](./Deployment/README.md) for ins
 
 ### Prerequisites and Costs
 
-Apart from having a [Power platform license] (https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus), to deploy this solution accelerator, ensure you have access to [Microsot sustainability manager] (https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) with the necessary permissions to the features.
+Apart from having a [Power platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus), to deploy this solution accelerator, ensure you have access to [Microsot sustainability manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) with the necessary permissions to the features.
 
 Check the [International availability of Microsoft Cloud for sustainability](https://learn.microsoft.com/en-us/industry/sustainability/availability) page and select a **region** where the services are available.
 
@@ -154,7 +154,7 @@ Check out similar solution accelerators
 
 ## Provide feedback
 
-Have questions, find a bug, or want to request a feature? [Submit a new issue](https://github.com/microsoft/Comparative-Analysis-for-Sustainability-Solution-Accelerator/issues/new/choose) on this repo and we'll connect.
+Have questions, find a bug, or want to request a feature? [Submit a new issue](https://github.com/microsoft/Task-Management-in-Microsoft-Sustainability-Manager-Solution-Accelerator/issues/new/choose) on this repo and we'll connect.
 
 <br/>
 
