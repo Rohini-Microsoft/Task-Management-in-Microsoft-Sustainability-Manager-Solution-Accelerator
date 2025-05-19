@@ -27,11 +27,11 @@ Below diagram depicts the architecture of this solution accelerator.
 
 This solution is designed to be easily customizable. All configuration and customizations to this solution will be done in Power Platform. 
 
-**There is opportunities for extension/modifications to**
+**There are opportunities for extension/modifications to**
 
 1) Custom tables of the solution
 2) Cloud flow that sends notifications
-3) Notifications template for Teams channel and email.  
+3) Notification templates for Teams channels and emails.  
 4) Extend N:1 relations from MSM task table to other tables in MSM which is not covered in the solution.
 
 <br/>
@@ -41,8 +41,8 @@ This solution is designed to be easily customizable. All configuration and custo
 This accelerator focuses on harnessing the following key capabilities:
 
 * [Configure tables in Dataverse](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/)
-* [Create a Cloud flow in power automate](https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow?tabs=new-designer)
-* [Building model driven app using in power apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/)
+* [Create a cloud flow in Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow?tabs=new-designer)
+* [Build a model-driven app using Power Apps"](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/)
 
 <br/>
 
@@ -79,7 +79,7 @@ Please click this [**Link to Deployment Guide**](./Deployment/README.md) for ins
 
 ### Prerequisites and Costs
 
-Apart from having a [Power platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus), to deploy this solution accelerator, ensure you have access to [Microsot sustainability manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) with the necessary permissions to the features.
+Apart from having a [Power platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus), to deploy this solution accelerator, ensure you have access to [Microsot Sustainability Manager](https://www.microsoft.com/en-us/sustainability/microsoft-sustainability-manager) with the necessary permissions to the features.
 
 Check the [International availability of Microsoft Cloud for sustainability](https://learn.microsoft.com/en-us/industry/sustainability/availability) page and select a **region** where the services are available.
 
@@ -103,8 +103,8 @@ Below is a sample landing page of the solution accelerator after it is deployed,
 ![Landing Page](./Deployment/images/readme/landingPage.png)
 
 As a Sustainability Manager or Sustainability Analyst, you will be able to deploy this accelerator on top of your existing MSM environment. This will allow you to
- 1. Create, manage, track, and assign tasks as a Sustainability Manager specific to MSM tables like Emissions, Scope 1, Scope 2 and Scope 3 activity tables, Accounts etc. You can create generic tasks for data validation, data import, etc. This also allows you to get a 360 view of all scheduled, completed and in-progress tasks to help you to prioritize, delegate, and track progress.
- 2. As a Analyst, you will receive notifications when a task is assigned to the user. There will be custom views to track & manage tasks assigned to the logged in user. 
+ 1. Create, manage, track, and assign tasks as a Sustainability Manager specific to MSM tables like Emissions, Scope 1, Scope 2 and Scope 3 activity tables, Accounts etc. You can create generic tasks for data validation, data import, etc. This also allows you to get a 360-degree view of all scheduled, completed and in-progress tasks to help you to prioritize, delegate, and track progress.
+ 2. As an Analyst, you will receive notifications when a task is assigned to the user. There will be custom views to track & manage tasks assigned to the logged in user. 
 
 ### Business value - Added new
 <details>
@@ -138,7 +138,7 @@ Please refer to following additional documentation along with [Microsoft Sustain
 
 ### Security guidelines
 
-For the solution there are two custom security roles created. Please adhere to the power platform's [Security roles and priviledges](https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges?tabs=new) to control access to the solution functionalities. 
+For the solution there are two custom security roles created. Please adhere to the power platform's [Security roles and privileges](https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges?tabs=new) to control access to the solution functionalities. 
 
 <br/>
 
